@@ -219,8 +219,11 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-   # Project: never commit raw or private data
-   data/
-   *.csv
-   *.xlsx
-   .env
+# Project: never commit raw or private data
+data/
+*.csv
+*.xlsx
+.env
+
+# Editor settings
+.vscode/
